@@ -9,7 +9,6 @@ body{
   background-attachment: fixed;
   color: #fff;
 
-
 }
 
 form{
@@ -20,25 +19,43 @@ form{
   border-radius: 5px;
 
 }
-
-.password {
-width: 50%;
-margin: 50px 10px;
-display: flex;
-align-items: center;
-/* border: 2px solid #ddd;
-border-radius: 3px; */
-color: #fff;
+ a{text-decoration: none;
+  color: beige;
+  }
+.header{
+  display: flex;
+  padding: 0, 20px, 0;
+  margin-bottom: 50px;
 }
-.password input{
-border: 2px solid #ddd;
-border-radius: 3px;
-padding: 5px;
+.password {
+
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 50px;
+
+/* width: 50%;
+margin: 50px 10px;
+display: block;
+align-items: center;
+color: #fff;
+margin-bottom: 15px; */
+}
+.underpassword{
+  display: flex;
+
+padding: 10px;
 width: 100%;
 font-size: 16px;
 outline: none;
-color: #fff;
+color: rgb(65, 54, 54);
 }
-icony-icon{
-margin: 0 10px;
+.underpassword input{
+  padding: 7px;
+}
+.underpassword input{
+  width: 100%;
 }
