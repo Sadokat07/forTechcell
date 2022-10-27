@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../img/awibRx.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+
+
+}
+
+.header{
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.logopic{
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+}
+#underlogo{
+font-size: 18px;
+color: #fff;
+font-family: inherit;
+font-size: 18px;
+}
+
+.style-welcome{
+  text-align: center;
+  margin-bottom: 7px;
+  font-family: inherit;
+  font-size: 24px;
+}
+.hrline{
+  width: 20%;
+  margin-bottom: 15px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form{
+   background-color: rgba(0, 0, 0, 0.59);
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 30px 20px;
+   border-radius: 5px;
+
+}
+
+.form-control{
+  text-align: left;
+  /* margin: auto;
+  margin-top: 10px; */
+  margin-bottom: 15px;
+
+}
+
+.form-control input{
+  border: 2px solid rgb(0,0,0);
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: none;
+  width: 95%;
+}
+.form-control-one{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: inline-block;
+  flex-direction: column;
+}
+
+ .form-control input[type="checkbox"]{
+  display: inline-block;
+  width: auto;
+  flex-direction: column;
+}
+.link{
+  color: rgb(215, 215, 199);
+  text-decoration: none;
+}
+button{
+  background-color:gold;
+  font-family: inherit;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button:hover{
+  background-color: rgb(204, 182, 56);
+  transition: background-color 0.2s ease;
+}
